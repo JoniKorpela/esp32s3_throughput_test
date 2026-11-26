@@ -11,7 +11,7 @@
 #include "iperf_cmd.h"
 
 #define WIFI_SSID       "wifitesti"
-#define WIFI_PASSWORD   "06080608"
+#define WIFI_PASSWORD   ""
 #define WIFI_MAX_RETRY  20
 #define WIFI_TX_POWER_QDBM 28 /* 7 dBm; assumes at least 1 dB cable loss with 14 dBi antenna */
 

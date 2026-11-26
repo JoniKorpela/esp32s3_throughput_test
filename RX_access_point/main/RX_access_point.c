@@ -10,7 +10,7 @@
 #include "iperf_cmd.h"
 
 #define WIFI_SSID       "wifitesti"
-#define WIFI_PASSWORD   "06080608"
+#define WIFI_PASSWORD   ""
 #define WIFI_CHANNEL    6
 #define WIFI_TX_POWER_QDBM 28 /* Quarter dBm units. 7 dBm; assumes at least 1 dB cable loss with 14 dBi antenna */
 
