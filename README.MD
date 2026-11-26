@@ -1,9 +1,7 @@
 For testing, flash and run each target, and run these commands in their serial consoles:
 
-| Target | Command |
-| :--- | :--- |
-| AP | `iperf -s -i 1` |
-| Station | `iperf -c 192.168.4.1 -t 60 -i 1` |
-| Station reverse direction | `iperf -c 192.168.4.1 -t 60 -i 1 -R` |
-
-Change `i` value for changing report interval in seconds, change `t` value to change test length.
+| Command | Explanation | Example |
+|---|---|---|
+| `dur <t>` | Set the test duration (in seconds). | `dur 20` |
+| `server <udp\tcp>` | Start the UDP iperf server. Needs to be restarted after each test | `server udp` |
+| `test udp <rate>/tcp>` | Send traffic in either udp or tcp. In case of UDP, give target rate for example "20M" to try to reach 20 Mbps | `test udp 20M` |
