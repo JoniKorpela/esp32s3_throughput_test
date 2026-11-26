@@ -30,5 +30,5 @@ dependencies:
 direct_dependencies:
 - espressif/iperf-cmd
 manifest_hash: bfe003fda0cceb034a6364313c1fa3fa00b15f92a5769edbaa7fa12abf50804b
-target: esp32
+target: esp32s3
 version: 3.0.0
